@@ -29,7 +29,7 @@ function clicarBotaoEnviar() {
     - Sobremesa: Pudim \n\
     Total: R$ " +
     preco.toFixed(2);
-  link = "https://wa.me/?text=" + encodeURIComponent(mensagem);
+  link = "https://wa.me/5583996142407?text=" + encodeURIComponent(mensagem);
   window.open(link);
 }
 
